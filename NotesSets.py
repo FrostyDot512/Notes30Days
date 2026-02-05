@@ -77,3 +77,9 @@ st1.issuperset(st2) #True
 issuperset() checks if one has all the elements of another 
 basically checking is st1 contains all the elements in st2 which is correct
 """
+# It returns the difference between two sets or using - symbol
+st1 = {'item1', 'item2', 'item3', 'item4'}
+st2 = {'item2', 'item3'}
+st2.difference(st1) # set() : st2 - st1
+st1.difference(st2) # {'item1', 'item4'} => st1\st2  : st2 - st1
+
