@@ -108,3 +108,23 @@ dct = {'key1':'value1', 'key2':'value2', 'key3':'value3', 'key4':'value4'}
 values = dct.values()
 print(values)     # dict_values(['value1', 'value2', 'value3', 'value4'])
 
+#A quick note when they say create a dictionary thats when you do:
+"""
+student_dictionary = {
+'first_name': 'Noah'
+'last_name': 'Olweny'
+'Age': 17
+'School': 'Maria Hall Hill'
+}
+"""
+#You do that but when they say add stuff into a dictionary you do:
+"""
+dog = dict()
+dog['Name'] = 'Henry'
+dog['Color'] = 'Brown'
+dog['Breed'] = 'German Sherpad'
+dog['Legs'] = 4
+dog['Age'] = 5
+#3
+"""
+#Thats the difference 
