@@ -1,5 +1,5 @@
-from random import *
-from string import *
+import random
+
 
 def generate_colors(color_type, num):
     colorss = []
@@ -22,4 +22,5 @@ def generate_colors(color_type, num):
 
 print(generate_colors('rgb', 3))
 print(generate_colors('hexa', 1))
+
 
