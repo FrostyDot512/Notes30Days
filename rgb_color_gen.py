@@ -1,4 +1,4 @@
-from random import *
+import random
 
 def rgb_color_gen():
     r = random.randint(0, 255)
@@ -8,3 +8,4 @@ def rgb_color_gen():
     return (r, g, b)
 
 print(rgb_color_gen())
+
